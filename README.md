@@ -12,26 +12,10 @@ https://snowballstem.org/download.html
 Compiling the library
 =====================
 
-Simply run the java compiler on all the java source files under the java
-directory.  For example, this can be done under unix by changing directory into
-the java directory, and running:
-
-javac org/tartarus/snowball/*.java org/tartarus/snowball/ext/*.java
-
-This will compile the library and also an example program "TestApp" which
-provides a command line interface to the library.
-
-
-Using the library
-=================
-
-There is currently no formal documentation on the use of the Java version
-of the library. Additionally, its interface is not guaranteed to be
-stable.
-
-The best documentation of the library is the source of the TestApp example
-program.
-
+As usual, run
+```shell
+./gradlew assemble
+```
 
 The TestApp example
 ===================
