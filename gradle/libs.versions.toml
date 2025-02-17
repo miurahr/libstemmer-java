@@ -12,6 +12,6 @@ junit4 = {group = "junit", name = "junit", version.ref = "junit"}
 junit-jupiter = {group = "org.junit.jupiter", name = "junit-jupiter-engine", version.ref = "junit5"}
 
 [plugins]
-git-version = {id = "com.palantir.git-version", version = "3.0.0"}
+git-version = {id = "com.palantir.git-version", version = "3.1.0"}
 spotbugs = {id = "com.github.spotbugs", version = "6.0.22"}
 spotless = {id = "com.diffplug.spotless", version = "6.25.0"}
